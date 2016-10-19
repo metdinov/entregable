@@ -12,6 +12,6 @@ public class SegundaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_segunda);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
-        viewPager.setAdapter(new AdapterViewPagerFotos(getSupportFragmentManager()));
+        viewPager.setAdapter(new AdaptadorFotos(getSupportFragmentManager()));
     }
 }

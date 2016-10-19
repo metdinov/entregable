@@ -11,10 +11,10 @@ import java.util.List;
 /**
  * Created by digitalhouse on 17/10/16.
  */
-public class AdapterViewPagerFotos extends FragmentStatePagerAdapter {
+public class AdaptadorFotos extends FragmentStatePagerAdapter {
     private List<Fragment> mFragmentList;
 
-    public AdapterViewPagerFotos(FragmentManager fm) {
+    public AdaptadorFotos(FragmentManager fm) {
         super(fm);
         mFragmentList = new ArrayList<>();
         mFragmentList.add(FotoFragment.crearFragmentFoto("Astrid y Gaston", R.drawable.astridygaston));
